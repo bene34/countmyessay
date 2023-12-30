@@ -15,7 +15,7 @@ function App() {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3000/items", { prompt })
+      .post("https://countmyessay.vercel.app//items", { prompt })
       .then((res) => {
         setResponse(res.data)
       })
