@@ -1,0 +1,82 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+.App {
+  background-color: white;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-family: 'Helvetica-Bold', sans-serif;
+  font-size: calc(15px + 5vmin);
+  color: black;
+  padding: 20px;
+  flex: 1;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 5px solid black;
+  box-sizing: border-box;
+  margin-top: 5px; */
+}
+.Body {
+  background-color: navy;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center ;
+  width: 70%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex: 1;
+  border: 5px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.Response {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: calc(16px + 2vmin);
+  font-family: 'Helvetica-Bold', sans-serif;
+  color: black;
+  flex: 1;
+  margin-top: 20px;
+  margin-left: auto;
+  padding: 5px;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(10px + 3vmin);
+  }
+
+  .Body {
+    font-size: calc(10px + 1vmin);
+  }
+
+  .Response {
+    font-size: calc(10px + 1vmin);
+  }
+}
